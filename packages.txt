@@ -1,0 +1,14 @@
+xmonad
+xmonad-contrib
+nitrogen
+picom
+dunst
+udiskie
+alacritty
+playerctl
+rofi
+xmobar
+zsh
+imagemagick
+i3lock
+ttf-ubuntu-font-family

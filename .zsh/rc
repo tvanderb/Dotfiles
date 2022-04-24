@@ -1,0 +1,40 @@
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+## Theme
+export ZSH="/home/extropy/.zsh/oh-my-zsh"
+
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+plugins=(
+        git
+)
+
+source $ZSH/oh-my-zsh.sh
+
+## History
+
+HISTFILE=~/.zsh/history
+HISTSIZE=1000
+SAVEHIST=10000
+
+## Aliases
+
+source ~/.zsh/aliases
+
+## Keybinds
+
+bindkey -e
+source ~/.zsh/keybinds
+
+# Not really sure what this is...
+
+zstyle :compinstall filename '/home/extropy/.zshrc'
+autoload -Uz compinit
+compinit
+
+# Custom P10K Colors
+source ~/.zsh/colors
+
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

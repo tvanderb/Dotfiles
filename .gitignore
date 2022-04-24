@@ -1,0 +1,62 @@
+# Ignore everything...
+/*
+
+# except:
+!.gitignore
+!README.md
+
+# Install Script
+!/packages.txt
+!/install.sh
+!/useless_files.txt
+
+# Fonts
+!/.fonts
+
+# XMonad
+!/.xmonad
+/.xmonad/*
+!/.xmonad/xmonad.hs
+!/.xmonad/scripts
+!/.xmonad/lib
+/.xmonad/lib/*
+!/.xmonad/lib/*.hs
+
+# XMobar
+!/.config
+/.config/*
+!/.config/xmobar
+
+# Dunst
+!/.config/dunst
+
+# Udiskie
+!/.config/udiskie
+
+# Alacritty
+!/.config/alacritty
+
+# Rofi
+!/.config/rofi
+
+# ZSH
+!/.zshrc
+!/.p10k.zsh
+!/.zsh
+/.zsh/history
+/.zsh/oh-my-zsh
+
+# Picom
+!/.config/picom
+
+# Doom Emacs
+!/.doom.d
+
+# Screenshots
+!/Screenshots
+/Screenshots/*
+!/Screenshots/[1-5].png
+!/Screenshots/README.md
+
+# Wallpaper
+!/wallpaper.png

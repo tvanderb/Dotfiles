@@ -1,0 +1,8 @@
+program_options:
+  notify: false
+  notify_command: "/home/extropy/.config/udiskie/notify.sh \"{event}\" \"{id_label}\" \"{id_type}\" \"{device_file}\" \"{device_size}\""
+
+notifications:
+  timeout: 0
+  device_unmounted: false
+  device_removed: true

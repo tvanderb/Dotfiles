@@ -1,0 +1,13 @@
+alias l="ls -alr"
+
+alias n="nordvpn"
+alias nv="nordvpn"
+
+alias push="git push"
+alias pull="git pull --rebase"
+
+alias t="todo.sh"
+alias to="todo.sh"
+alias todo="todo.sh"
+
+# vim: set syntax=zsh:

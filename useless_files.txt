@@ -1,0 +1,7 @@
+README.md
+Screenshots
+install.sh
+packages.txt
+useless_files.txt
+wallpaper.png
+install

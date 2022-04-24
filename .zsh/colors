@@ -1,0 +1,35 @@
+# Prompt Character
+export PROMPT_CHAR_SUCCESS=010 # Command succeeded
+export PROMPT_CHAR_FAIL=009    # Command failed
+
+
+# Directory
+export DIRECTORY_FOREGROUND=014           # Normal directories
+export DIRECTORY_SHORTENED_FOREGROUND=012 # Shortened directories
+
+
+# Git
+export GIT_META=005
+export GIT_CLEAN=010
+export GIT_MODIFIED=003
+export GIT_UNTRACKED=004
+export GIT_CONFLICTED=009
+
+export GIT_ICON=008
+export GIT_ICON_LOADING=008
+export GIT_ICON_STRANGE=005
+
+
+# Last Exit
+export STATUS_OK=010
+export STATUS_FAIL=009
+
+
+# Various
+export OS_ICON_FOREGROUND=005   # OS Icon
+export TIME_ELAPSED=005         # Time it took for command to complete.
+export BACKGROUND_JOBS=011      # Gear icon reflecting the presence of child processes.
+export TODO_ITEMS=005           # todo.txt-cli items
+export CURRENT_TIME=014
+
+# vim: set syntax=zsh:
